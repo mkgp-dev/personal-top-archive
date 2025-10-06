@@ -64,6 +64,14 @@ div {
 }
 
 /* 05-descendant-combinator */
+div.container {
+  background: none !important;
+}
+
+p.text {
+  background: none !important;
+}
+
 .container .text {
   background: #FFFF00 !important;
   color: #FF0000 !important;
