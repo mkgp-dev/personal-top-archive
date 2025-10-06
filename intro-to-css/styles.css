@@ -66,6 +66,7 @@ div {
 /* 05-descendant-combinator */
 div.container {
   background: none !important;
+  font-weight: normal !important;
 }
 
 p.text {
