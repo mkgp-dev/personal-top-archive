@@ -21,7 +21,7 @@ div {
   background: #FF7276 !important;
 }
 
-.second {
+#second {
   background: none !important;
   font-color: #0000FF;
   font-size: 36px;
@@ -31,7 +31,7 @@ div {
   font-size: 24px;
 }
 
-.fourth {
+#fourth {
   background: #88E788 !important;
   font-weight: bold;
 }
