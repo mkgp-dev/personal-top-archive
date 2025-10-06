@@ -51,3 +51,14 @@ div {
 .yellow-btn {
   background: #FFFF00 !important;
 }
+
+/* 04-chaining-selectors */
+.avatar.proportioned {
+  width: 300px;
+  height: auto;
+}
+
+.avatar.distorted {
+  width: 200px;
+  height: 400px;
+}
