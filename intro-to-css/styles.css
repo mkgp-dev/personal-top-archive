@@ -45,7 +45,7 @@ div {
 
 .black-btn {
   background: #000 !important;
-  font-color: #FFF;
+  color: #FFF;
 }
 
 .yellow-btn {
@@ -61,4 +61,12 @@ div {
 .avatar.distorted {
   width: 200px;
   height: 400px;
+}
+
+/* 05-descendant-combinator */
+.container .text {
+  background: #FFFF00 !important;
+  color: #FF0000 !important;
+  font-size: 20px !important;
+  text-align: center !important;
 }
