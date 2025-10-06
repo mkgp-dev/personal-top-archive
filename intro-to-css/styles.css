@@ -7,7 +7,7 @@
   font-style: normal;
 }
 
-/* 01-css-methods: Does the div element have CSS added via the external method? */
+/* 01-css-methods */
 div {
   background: red;
   font-color: white;
@@ -34,4 +34,20 @@ div {
 #fourth {
   background: #88E788 !important;
   font-weight: bold;
+}
+
+/* 03-grouping-selectors */
+.black-btn,
+.yellow-btn {
+  font-family: "Times New Roman", "Helvetica", san-serif;
+  font-size: 28px;
+}
+
+.black-btn {
+  background: #000 !important;
+  font-color: #FFF
+}
+
+.yellow-btn {
+  background: #FFFF00 !important;
 }
