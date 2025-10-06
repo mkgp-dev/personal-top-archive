@@ -4,10 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introduction to CSS</title>
-    <!-- 01-css-methods: Did you properly link the external CSS file in the HTML file? -->
     <link rel="stylesheet" href="./styles.css" />
     <style>
-      /* 01-css-methods: Does the p element have CSS added via the internal method? */
       p {
         background: green;
         font-color: white;
@@ -19,10 +17,8 @@
     <!-- Exercises -->
     <!-- 01-css-methods -->
     <h1>Methods for Adding CSS</h1>
-    <!-- 01-css-methods: Did you use all three methods of adding CSS to an HTML file? -->
     <div>Styled via External method (styles.css)</div>
     <p>Styled via Internal method (line 10)</p>
-    <!-- 01-css-methods: Does the button element have CSS added via the inline method? -->
     <button style="background: orange; font-size: 18px;">Style via Inline method</button>
     <hr />
     <!-- 02-class-id-selectors -->
@@ -32,5 +28,10 @@
     <p class="odd font">The third element: in addition to the styles for all odd numbered elements, add a font size of 24px</p>
     <div id="fourth" class="font">The fourth element: a light green background, a font size of 24px, and bold</div>
     <p class="odd">Lorem no Ipsum I guess.</p>
+    <hr />
+    <!-- 03-grouping-selectors -->
+    <h1>Grouping Selectors</h1>
+    <button class="black-btn">black button</button>
+    <button class="yellow-btn">yellow button</button>
   </body>
 </html>
