@@ -4,39 +4,85 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Just a Landing Page</title>
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <!-- header -->
       <div class="header">
-        <nav class="navbar">
+        <nav class="container navbar">
           <div class="brand">@mkgp-dev</div>
           <div class="nav-link">
             <ul>
               <li><a href="#hero">Header</a></li>
-              <li><a href="#">Box Section</a></li>
-              <li><a href="#">Quote</a></li>
-              <li><a href="#">Call action</a></li>
+              <li><a href="#information">Box Section</a></li>
+              <li><a href="#quote">Quote</a></li>
+              <li><a href="#call">Call action</a></li>
             </ul>
           </div>
         </nav>
 
         <!-- hero -->
-        <section class="hero">
+        <section class="container hero" id="hero">
           <div class="left-body">
             <h1>This website is awesome, ngl.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non ex ac ligula consectetur lobortis. Cras et magna eu tortor tristique viverra non ut mi. Fusce eu lorem eu mi convallis tincidunt non cursus sem. Praesent consequat nunc eget fermentum tempor. Quisque quis dolor non lacus ultrices tincidunt quis quis sapien.</p>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
             <button type="button">Sign up</button>
           </div>
           <div class="right-body">
-            <img src="https://placehold.co/500x250" alt="image_placeholder" />
+            <img src="https://placehold.co/525x236" alt="image_placeholder" />
           </div>
         </section>
-
-        <!-- box section -->
-        <!-- todo -->
       </div>
+
+      <!-- box section -->
+      <section class="container information" id="information">
+        <h1>Some random information.</h1>
+        <div class="information-body">
+          <div class="box">
+            <img src="https://placehold.co/170x170" alt="image_placeholder" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="box">
+            <img src="https://placehold.co/170x170" alt="image_placeholder" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="box">
+            <img src="https://placehold.co/170x170" alt="image_placeholder" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="box">
+            <img src="https://placehold.co/170x170" alt="image_placeholder" />
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- quote section -->
+      <section class="container quote" id="quote">
+        <figure class="quote-box">
+          <blockquote>Photoshop is just like makeup. When it’s done well it looks great, and when it’s overdone you look like a crazy asshole.</blockquote>
+          <figcaption class="author">-Tina Fey</figcaption>
+        <figure>
+      </section>
+
+      <!-- call action section -->
+      <section class="container call" id="call">
+        <div class="call-box">
+          <div class="text-area">
+            <p class="bold">Call to action! It's time!</p>
+            <p class="muted">Sign up for our product by clicking that button right over there!</p>
+          </div>
+          <div class="button-area">
+            <button>Sign up</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <p>Copyright &copy; The Odin Project 2025</p>
+        <p class="muted">Made with love by @mkgp-dev</p>
+      </footer>
     </main>
   </body>
 </html>
