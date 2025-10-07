@@ -5,6 +5,9 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 > You can read, make a basis, or laugh at my code but strongly recommending you **not to copy** and learn the course properly.
 
 ## Assignment
-- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/odin-recipes) | [Recipe](https://www.theodinproject.com/lessons/foundations-recipes#assignment)
-  - Created at October 06, 2025
+- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/odin-recipes) - [view](https://mkgp-dev.github.io/personal-top-archive/odin-recipes) | [Recipe](https://www.theodinproject.com/lessons/foundations-recipes#assignment)
+  - Submitted at October 06, 2025
   - ``idle`` add front-end kit (Bootstrap)
+- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/landing-page) - [view](https://mkgp-dev.github.io/personal-top-archive/landing-page) | [Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page#assignment)
+  - Submitted at October 07, 2025
+  - ``idle`` modify contents
