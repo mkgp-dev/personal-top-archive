@@ -11,6 +11,10 @@ html, body {
   padding: 0;
   margin: 0;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
 
 .navbar {
   height: 50px;
@@ -21,7 +25,8 @@ html, body {
 
 .navbar .brand {
   color: #F9FAF8;
-  font-weight: 600;
+  font-weight: 900;
+  font-size: 24px;
 }
 
 .navbar ul {
@@ -43,17 +48,32 @@ html, body {
   text-decoration: underline;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
 .header {
   background: #1F2937;
-  padding: 0 8rem 5rem 8rem;
+  padding-bottom: 8rem;
 }
 
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
-  margin-top: 4rem;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.left-body {
+  max-width: 450px;
+}
+
+.right-body {
+  max-width: 525px;
 }
 
 .hero h1 {
@@ -66,17 +86,135 @@ html, body {
 }
 
 .hero p {
-  margin: 0;
-  padding: 0;
   color: #E5E7EB;
+  font-size: 18px;
 }
 
 .hero button {
   background: #3882F6;
   border: none;
   border-radius: .5rem;
-  padding: .5rem 1rem;
+  padding: .6rem 2.3rem;
   font-weight: 600;
   color: #E5E7EB;
-  margin-top: .5rem;
+  margin-top: .8rem;
+  font-size: 1rem;
+}
+
+.information {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+
+.information h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+}
+
+.information-body {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box {
+  max-width: 180px;
+  text-align: center;
+}
+
+.box img {
+  border-radius: 1rem;
+  border: 4px solid #3882F6;
+  margin-bottom: .5rem;
+}
+
+.box p {
+  color: #5e5e5e;
+  font-size: 18px;
+}
+
+.quote {
+  background: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding-top: 8.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.quote-box {
+  max-width: 800px;
+}
+
+blockquote,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+blockquote {
+  font-weight: 300;
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.author {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+}
+
+.call {
+  padding-top: 6.2rem;
+  padding-bottom: 6.2rem;
+}
+
+.call-box {
+  background: #3882F6;
+  border-radius: .5rem;
+  padding: 3rem 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-area .bold {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.text-area .muted {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.button-area button {
+  border: 2px solid #F9FAF8;
+  background: transparent;
+  padding: .6rem 2.3rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #F9FAF8;
+}
+
+footer {
+  background: #1F2937;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+footer p {
+  color: #E5E7EB;
+}
+
+.muted {
+  color: #b5b8bd;
 }
