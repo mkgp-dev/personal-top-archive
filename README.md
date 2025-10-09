@@ -13,4 +13,5 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
   - ``idle`` modify contents
 - [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/rock-paper-scissors) - [view](https://mkgp-dev.github.io/personal-top-archive/rock-paper-scissors) | [Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors#assignment)
   - Submitted at October 07, 2025
-  - ``idle`` add front-end kit (Bootstrap), improve js functionality
+  - ``completed`` add ~~front-end kit (Bootstrap)~~ own CSS, ~~improve js functionality~~ update js functionality
+  - ``idle`` add proper indication such as sound effects, improve js functionality
