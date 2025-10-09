@@ -1,12 +1,49 @@
+<!--
+Icons are credited from Flaticon
+https://www.flaticon.com/authors/cuputo/detailed-outline?author_id=722&type=standard
+-->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock, Paper, or Scissors?</title>
+    <title>Rock Paper Scissors</title>
   </head>
   <body>
-    <pre>Hey if you see this! Open the console and type playGame(); to start and reset the game by typing resetGame();</pre>
-    <script src="./main.js"></script>
+    <main class="flex-all-center">
+      <div class="container">
+        <h1 class="h-1">Round <span id="round">1</span></h1>
+        <h1 class="h-1" id="announcement"></h1>
+        <p class="author">Made with love by @mkgp-dev</p>
+        <div class="game">
+          <div class="human">
+            <div class="selection" id="select">
+              <button type="button" class="btn rock" id="r"></button>
+              <button type="button" class="btn paper" id="p"></button>
+              <button type="button" class="btn scissors" id="s"></button>
+              <div class="scoreboard">
+                <p id="human-score">0</p>
+              </div>
+            </div>
+            <div class="base">
+              <div class="base-body human-base"></div>
+            </div>
+          </div>
+          <div class="computer">
+            <div class="base">
+              <div class="base-body computer-base"></div>
+            </div>
+            <div class="selection">
+              <div class="dummy rock"></div>
+              <div class="dummy paper"></div>
+              <div class="dummy scissors"></div>
+              <div class="scoreboard">
+                <p id="computer-score">0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
