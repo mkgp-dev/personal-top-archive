@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #1a2223;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #fff;
+}
+
+.flex-all-center {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.h-1 {
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.computer {
+  padding: 1rem;
+}
+
+.human,
+.computer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn,
+.dummy {
+  border: none;
+  background-color: #8fe2e4;
+  width: 5rem;
+  height: 5rem;
+}
+
+.btn:hover:enabled {
+  cursor: pointer;
+  background-color: #3cd2d7;
+}
+
+.rock {
+  -webkit-mask-image: url('./media/fist.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: url('./media/fist.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+.paper {
+  -webkit-mask-image: url('./media/hand-palm.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: url('./media/hand-palm.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+.scissors {
+  -webkit-mask-image: url('./media/peace.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: url('./media/peace.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+.base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .5rem;
+}
+
+.base-body {
+  width: 15rem;
+  height: 15rem;
+  background-color: #43575a;
+}
+
+.human-base {
+  -webkit-mask-image: url('./media/touchscreen.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: url('./media/touchscreen.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+.computer-base {
+  -webkit-mask-image: url('./media/touchscreen.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: url('./media/computer.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+.win-bg {
+  background-color: #9ae8ce;
+}
+
+.lose-bg {
+  background-color: #eb9e9e;
+}
+
+.draw-bg {
+  background-color: #ecd7b2;
+}
+
+.scoreboard {
+  width: auto;
+  height: auto;
+  background: #43575a;
+  text-align: center;
+  font-weight: 500;
+  font-size: 4rem;
+  border-radius: .5rem;
+}
+
+.scoreboard p {
+  padding: 0;
+  margin: 0;
+}
+
+.announce-lose {
+  color: #d94a4a;
+}
+
+.announce-win {
+  color: #47d5a6;
+}
+
+.author {
+  color: #2f3738;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
