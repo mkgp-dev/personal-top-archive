@@ -15,3 +15,6 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
   - Submitted at October 07, 2025
   - ``completed`` add ~~front-end kit (Bootstrap)~~ own CSS, ~~improve js functionality~~ update js functionality
   - ``idle`` add proper indication such as sound effects, improve js functionality
+- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/etch-a-sketch) - [view](https://mkgp-dev.github.io/personal-top-archive/etch-a-sketch/) | [Etch a Sketch](https://www.theodinproject.com/lessons/foundations-etch-a-sketch#assignment)
+  - Submitted at October 10, 2025
+  - ``idle`` randomize colors, darkening effect, hover functionality
