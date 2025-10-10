@@ -96,3 +96,91 @@ const convertToCelsius = (n) => {
 const convertToFahrenheit = (n) => {
   return Number(((n * 9 / 5) + 32).toFixed(1));
 };
+
+// 12_calculator
+const add = (a, b) => {
+  return a + b;
+};
+
+const subtract = (a, b) => {
+  return a - b;
+};
+
+const sum = (arr) => {
+  return arr.reduce((prev, data) => prev + data, 0);
+};
+
+const multiply = (arr) => {
+  return arr.reduce((prev, data) => prev * data);
+};
+
+const power = (a, b) => {
+  return a ** b;
+};
+
+const factorial = (a) => {
+  if (a === 0) return 1;
+  
+  let f = 1;
+  for (let i = 1; i <= a; i++) {
+    const data = f * i;
+    f = data;
+  }
+
+  return f;
+};
+
+// 13_palindromes
+const palindromes = (s) => {
+  let string = [];
+  const l = s.length;
+  
+  for (let i = 0; i < l; i++) {
+    const str = s[i].toLowerCase();
+    string.push(str);
+  }
+
+  const r = string.slice().reverse().join('').replace(/[ .,!]/g, '');
+  const d = string.join('').replace(/[ .,!]/g, '');
+
+  if (d === r) return true;
+  return false;
+};
+
+// 14_fibonacci
+const fibonacci = (n) => {
+  if (n === 1) return 1;
+  else if (n === 0 || n === "0") return 0;
+  else if (n <= -1) return 'OOPS'; 
+
+  let a = 0;
+  let b = 1;
+  let f;
+
+  for (let i = 0; i < n; i++) {
+    f = a + b;
+    b = a;
+    a = f;
+  }
+
+  return f;
+};
+
+// 15_getTheTitles
+const getTheTitles = (arr) => {
+    return arr.map(data => data.title);
+};
+
+// 16_findTheOldest
+const findTheOldest = (arr) => {
+  const age = (b, d) => {
+    if (!d) d = new Date().getFullYear();
+    return d - b;
+  };
+
+  return arr.reduce((prev, curr) => {
+    const p = age(prev.yearOfBirth, prev.yearOfDeath);
+    const c = age(curr.yearOfBirth, curr.yearOfDeath);
+    return c > p ? curr : prev;
+  });
+};
