@@ -8,7 +8,8 @@
 }
 
 html,
-body {
+body,
+footer p {
   padding: 0;
   margin: 0;
 }
@@ -32,12 +33,34 @@ body {
   width: auto;
   background: #0e2f5b;
   text-align: right;
-  padding: 1.2rem .5rem .2rem .5rem;
+  padding: .5rem .5rem .2rem .5rem;
   color: #fff;
   border: 1px solid #074fad;
   margin-bottom: .5rem;
   font-weight: 200;
   font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-display > #formula,
+.calc-display > #display {
+  min-width: 0;
+}
+
+#formula {
+  font-size: .8rem;
+  color: #1e60b8;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#display {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
 }
 
 .calc-option,
@@ -48,11 +71,8 @@ body {
   justify-content: space-between;
 }
 
-.opt-left,
-.opt-right {
-  display: flex;
-  justify-content: space-between;
-  gap: .3rem;
+.calc-option button {
+  font-weight: 800;
 }
 
 .calc-option button,
@@ -81,4 +101,12 @@ body {
 
 .diff-btn {
   background: #e6f5ff;
+}
+
+footer p {
+  margin-top: 1rem;
+  color: #1e60b8;
+  font-weight: 300;
+  font-size: .8rem;
+  text-align: center;
 }
