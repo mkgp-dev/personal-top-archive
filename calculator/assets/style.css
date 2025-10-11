@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+html,
+body,
+footer p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #0f2545;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.calculator {
+  width: 15rem;
+}
+
+.calc-display {
+  width: auto;
+  background: #0e2f5b;
+  text-align: right;
+  padding: .5rem .5rem .2rem .5rem;
+  color: #fff;
+  border: 1px solid #074fad;
+  margin-bottom: .5rem;
+  font-weight: 200;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-display > #formula,
+.calc-display > #display {
+  min-width: 0;
+}
+
+#formula {
+  font-size: .8rem;
+  color: #1e60b8;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#display {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.calc-option,
+.calc-row {
+  display: flex;
+  gap: .3rem;
+  margin-bottom: .3rem;
+  justify-content: space-between;
+}
+
+.calc-option button {
+  font-weight: 800;
+}
+
+.calc-option button,
+.calc-row button {
+  width: 100%;
+  border: none;
+  height: 2rem;
+}
+
+.calc-option button:hover,
+.calc-row button:hover {
+  background: #77bcf8;
+}
+
+.btn-ac {
+  background: #4fa1f3;
+}
+
+.alt-btn {
+  background: #0361dc;
+}
+
+.default-btn {
+  background: #2781e8;
+}
+
+.diff-btn {
+  background: #e6f5ff;
+}
+
+footer p {
+  margin-top: 1rem;
+  color: #1e60b8;
+  font-weight: 300;
+  font-size: .8rem;
+  text-align: center;
+}

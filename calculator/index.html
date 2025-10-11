@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="base">
+        <div class="calculator">
+          <!-- display -->
+          <div class="calc-display">
+            <span id="formula"></span>
+            <span id="display">0</span>
+            </div>
+          <!-- ac, del -->
+          <div class="calc-option">
+            <button type="button" class="btn-ac" id="clr">AC</button>
+            <button type="button" class="alt-btn" id="del">DEL</button>
+          </div>
+          <!-- 7, 8, 9, divide -->
+          <div class="calc-row">
+            <button type="button" class="default-btn" id="num">7</button>
+            <button type="button" class="default-btn" id="num">8</button>
+            <button type="button" class="default-btn" id="num">9</button>
+            <button type="button" class="alt-btn" id="operator">/</button>
+          </div>
+          <!-- 4, 5, 6, multiply -->
+          <div class="calc-row">
+            <button type="button" class="default-btn" id="num">4</button>
+            <button type="button" class="default-btn" id="num">5</button>
+            <button type="button" class="default-btn" id="num">6</button>
+            <button type="button" class="alt-btn" id="operator">x</button>
+          </div>
+          <!-- 1, 2, 3, minus -->
+          <div class="calc-row">
+            <button type="button" class="default-btn" id="num">1</button>
+            <button type="button" class="default-btn" id="num">2</button>
+            <button type="button" class="default-btn" id="num">3</button>
+            <button type="button" class="alt-btn" id="operator">-</button>
+          </div>
+          <!-- 0, decimal, sum, equal -->
+          <div class="calc-row">
+            <button type="button" class="default-btn" id="dec">.</button>
+            <button type="button" class="default-btn" id="num">0</button>
+            <button type="button" class="diff-btn" id="equal">=</button>
+            <button type="button" class="alt-btn" id="operator">+</button>
+          </div>
+        </div>
+        <footer>
+          <p>Made with love by @mkgp-dev</p>
+        </footer>
+      </div>
+    </main>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
