@@ -13,4 +13,8 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
   - ``idle`` modify contents
 - [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/rock-paper-scissors) - [view](https://mkgp-dev.github.io/personal-top-archive/rock-paper-scissors) | [Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors#assignment)
   - Submitted at October 07, 2025
-  - ``idle`` add front-end kit (Bootstrap), improve js functionality
+  - ``completed`` add ~~front-end kit (Bootstrap)~~ own CSS, ~~improve js functionality~~ update js functionality
+  - ``idle`` add proper indication such as sound effects, improve js functionality
+- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/etch-a-sketch) - [view](https://mkgp-dev.github.io/personal-top-archive/etch-a-sketch/) | [Etch a Sketch](https://www.theodinproject.com/lessons/foundations-etch-a-sketch#assignment)
+  - Submitted at October 10, 2025
+  - ``idle`` randomize colors, darkening effect, hover functionality
