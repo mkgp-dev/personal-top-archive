@@ -1,0 +1,172 @@
+@import url('./norse-font/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+p,
+button {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: #F9FAFB;
+}
+
+.container {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.left-panel {
+  width: 32rem;
+  height: 100vh;
+  background-image: url('./img/left-panel-bg.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-panel .logo {
+  height: 9.5rem;
+  margin-top: 14rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-h {
+  height: 8rem;
+}
+
+.logo p {
+  font-family: "Norse", sans-serif;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.left-panel .credit {
+  margin-top: auto;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.credit p {
+  font-size: .8rem;
+  color: #fff;
+}
+
+.credit a {
+  color: #fff;
+}
+
+.right-panel {
+  flex: 1;
+  height: 100vh;
+  padding-top: 9.5rem;
+}
+
+.right-panel .header {
+  width: 38rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 3.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.right-panel .register {
+  margin-left: -2.5rem;
+  padding-left: 2.5rem;
+  margin-bottom: 2rem;
+  padding-top: 1.2rem;
+  padding-bottom: 2rem;
+  width: 52rem;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.register p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1F2937;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.form-panel {
+  display: flex;
+  gap: 4.2rem;
+}
+
+.form-panel label {
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: #1F2937;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+
+.form-panel input {
+  display: block;
+  width: 14.8rem;
+  height: 1.8rem;
+  border: 1px solid #E5E7EB;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+}
+
+.form-panel input:focus {
+  border: 1px solid #4970df;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  outline: none;
+}
+
+.form-panel input:invalid {
+  border: 1px solid #d57878;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.right-panel .footer button {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  background-color: #596D48;
+  height: 2.8rem;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+.right-panel .footer a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: 600;
+}
