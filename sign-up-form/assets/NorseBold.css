@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url('fonts/NorseBold.eot');
+    src: url('fonts/NorseBold.eot') format('embedded-opentype'),
+         url('fonts/NorseBold.woff2') format('woff2'),
+         url('fonts/NorseBold.woff') format('woff'),
+         url('fonts/NorseBold.ttf') format('truetype'),
+         url('fonts/NorseBold.svg#NorseBold') format('svg');
+}
