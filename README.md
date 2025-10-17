@@ -24,6 +24,6 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 - [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/sign-up-form) - [view](https://mkgp-dev.github.io/personal-top-archive/sign-up-form) | [Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form#assignment)
   - Submitted at October 14, 2025
   - ``idle`` modify its contents
-- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/admin-dashboard) - [view](https://mkgp-dev.github.io/personal-top-archive/admin-dashboard) | [Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard#assignment)
+- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/admin-dashboard) - [view](https://mkgp-dev.github.io/personal-top-archive/admin-dashboard) | [Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard#assignment)
   - Submitted at October 17, 2025
   - ``idle`` modify its contents
