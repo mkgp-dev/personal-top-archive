@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.all.css" />
+</head>
+<body>
+    <main class="container">
+        <button type="button" class="btn btn-add mb" id="btn-add">Add a book</button>
+        <table class="tbl">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </main>
+
+    <!-- Modal -->
+    <div id="default-modal" class="modal">
+        <div class="modal-body">
+            <span class="close"><i class="fa-sharp fa-regular fa-xmark"></i></span>
+            <div class="form-group">
+            <div class="mb">
+                <label for="title">Title of the Book</label>
+                <input type="text" class="form-input" id="title" />
+            </div>
+            <div class="mb">
+                <label for="author">Author of the Book</label>
+                <input type="text" class="form-input" id="author" />
+            </div>
+            <div class="mb">
+                <label for="pages">How many pages?</label>
+                <input type="number" class="form-input" id="pages" />
+            </div>
+            <div class="check-group mb">
+                <input type="checkbox" class="form-input" id="bool" />
+                <span>Did you read this book?</span>
+            </div>
+            <div>
+                <button type="button" class="btn" id="submit">Submit</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

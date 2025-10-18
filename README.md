@@ -27,3 +27,6 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 - [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/admin-dashboard) - [view](https://mkgp-dev.github.io/personal-top-archive/admin-dashboard) | [Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard#assignment)
   - Submitted at October 17, 2025
   - ``idle`` modify its contents
+- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/library) - [view](https://mkgp-dev.github.io/personal-top-archive/library) | [Library](https://www.theodinproject.com/lessons/node-path-javascript-library#assignment)
+  - Submitted at October 18, 2025
+  - ``idle`` modify its contents
