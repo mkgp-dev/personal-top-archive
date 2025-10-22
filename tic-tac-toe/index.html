@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.all.css" />
+    <link ref="stylesheet" href="./stylesheet.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="layout">
+            <div class="status mb">
+                <span id="status-text"></span>
+            </div>
+            <div class="board mb"></div>
+            <div class="settings-area"></div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal-settings" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p id="modal-title"></p>
+            </div>
+            <div class="modal-body">
+                <div class="mb">
+                    <label for="player-one">
+                        <i class="fa-sharp fa-regular fa-xmark-large small-me"></i>
+                        Player One
+                    </label>
+                    <input type="text" id="player-one" />
+                </div>
+                <div class="mb">
+                    <label for="player-two">
+                        <i class="fa-sharp fa-regular fa-circle"></i>
+                    Player Two
+                    </label>
+                    <input type="text" id="player-two" />
+                </div>
+                <div class="action"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
