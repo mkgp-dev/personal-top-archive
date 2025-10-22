@@ -50,6 +50,7 @@ const Game = (function() {
         // check player strings
         pOne = modal.inputPlayerOne.value !== '' ? modal.inputPlayerOne.value.trim() : 'Player One';
         pTwo = modal.inputPlayerTwo.value !== '' ? modal.inputPlayerTwo.value.trim() : 'Player Two';
+        if (pOne === pTwo) return;
 
         modal.main.style.display = 'none';
         modal.main.style.backgroundColor = 'rgba(0,0,0,0.5)';
