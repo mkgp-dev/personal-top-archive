@@ -30,3 +30,7 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 - [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/library) - [view](https://mkgp-dev.github.io/personal-top-archive/library) | [Library](https://www.theodinproject.com/lessons/node-path-javascript-library#assignment)
   - Submitted at October 18, 2025
   - ``idle`` modify its contents
+- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/tic-tac-toe) - [view](https://mkgp-dev.github.io/personal-top-archive/tic-tac-toe) | [Tic Tac Toe](https://www.theodinproject.com/lessons/node-path-javascript-tic-tac-toe#assignment)
+  - Submitted at October 22, 2025
+  - ``idle`` improve js functionality
+  - ``idle`` improve layout design
