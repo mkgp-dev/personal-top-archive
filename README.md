@@ -34,3 +34,7 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
   - Submitted at October 22, 2025
   - ``idle`` improve js functionality
   - ``idle`` improve layout design
+- [source](https://github.com/mkgp-dev/personal-top-archive/tree/main/restaurant-page/open-source) - [view](https://mkgp-dev.github.io/personal-top-archive/restaurant-page) | [Restaurant Page](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page#assignment)
+  - Submitted at October 24, 2025
+  - ``idle`` improve js functionality
+  - ``idle`` improve layout design
