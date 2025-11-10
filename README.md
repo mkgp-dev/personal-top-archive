@@ -38,3 +38,7 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
   - Submitted at October 24, 2025
   - ``idle`` improve js functionality
   - ``idle`` improve layout design
+- [source](https://github.com/mkgp-dev/what-to-do) - [view](https://mkgp-dev.github.io/what-to-do) | [Todo List](https://www.theodinproject.com/lessons/node-path-javascript-todo-list#assignment)
+  - Submitted at November 04, 2025
+- [source](https://github.com/mkgp-dev/forecast-me) - [view](https://mkgp-dev.github.io/forecast-me) | [Weather App](https://www.theodinproject.com/lessons/node-path-javascript-weather-app#assignment)
+  - Submitted at November 09, 2025
