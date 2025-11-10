@@ -1,0 +1,12 @@
+{
+  "name": "linked-list",
+  "version": "1.0.0",
+  "description": "One of the most basic and fundamental data structures.",
+  "private": true,
+  "type": "module",
+  "author": "Mark Kenneth Pelayo (mkgp-dev)",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "license": "ISC"
+}
