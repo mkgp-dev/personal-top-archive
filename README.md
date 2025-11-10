@@ -19,3 +19,5 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 | Restaurant Page | [source/restaurant-page](/restaurant-page/open-source) | [restaurant-page](https://mkgp-dev.github.io/personal-top-archive/restaurant-page) | October 24, 2025
 | Todo List | [source/todo-list](/../../../../mkgp-dev/what-to-do) | [todo-list](https://mkgp-dev.github.io/what-to-do) | November 04, 2025
 | Weather App | [source/weather-app](/../../../../mkgp-dev/forecast-me) | [weather-app](https://mkgp-dev.github.io/forecast-me) | November 09, 2025
+| Linked Lists | [source/linked-lists](/linked-lists) | Unavailable | November 10, 2025
+| HashMap | [source/hashmap](/hashmap) | Unavailable | November 10, 2025
