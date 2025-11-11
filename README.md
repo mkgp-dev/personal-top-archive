@@ -21,3 +21,4 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 | Weather App | [source/weather-app](/../../../../mkgp-dev/forecast-me) | [weather-app](https://mkgp-dev.github.io/forecast-me) | November 09, 2025
 | Linked Lists | [source/linked-lists](/linked-lists) | Unavailable | November 10, 2025
 | HashMap | [source/hashmap](/hashmap) | Unavailable | November 10, 2025
+| Binary Search Trees | [source/binary-search-trees](/binary-search-trees) | Unavailable | November 11, 2025
