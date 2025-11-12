@@ -23,3 +23,4 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 | HashMap | [source/hashmap](/hashmap) | Unavailable | November 10, 2025
 | Binary Search Trees | [source/binary-search-trees](/binary-search-trees) | Unavailable | November 11, 2025
 | Knights Travails | [source/knights-travails](/knights-travails) | Unavailable | November 12, 2025
+| Testing Practice | [source/testing-practice](/testing-practice) | Unavailable | November 12, 2025
