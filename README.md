@@ -24,4 +24,5 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 | Binary Search Trees | [source/binary-search-trees](/binary-search-trees) | Unavailable | November 11, 2025
 | Knights Travails | [source/knights-travails](/knights-travails) | Unavailable | November 12, 2025
 | Testing Practice | [source/testing-practice](/testing-practice) | Unavailable | November 12, 2025
-| Battleship | [source/battleship](/../../../../mkgp-dev/ship-wreck) | [battleship](https://mkgp-dev.github.io/ship-wreck/) | November 17, 2025
+| Battleship | [source/battleship](/../../../../mkgp-dev/ship-wreck) | [battleship](https://mkgp-dev.github.io/ship-wreck) | November 17, 2025
+| Homepage | [source/homepage](/../../../../mkgp-dev/unofficial-portfolio) | [homepage](https://mkgp-dev.github.io/unofficial-portfolio) | November 18, 2025
