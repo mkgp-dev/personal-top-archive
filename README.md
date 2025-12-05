@@ -28,5 +28,5 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 | Homepage | [source/homepage](/../../../../mkgp-dev/unofficial-portfolio) | [homepage](https://mkgp-dev.github.io/unofficial-portfolio) | November 18, 2025
 | CV Application | [source/cv-application](/../../../../mkgp-dev/resume-makinator) | [cv-application](https://resume-makinator.pages.dev) | November 30, 2025
 | Memory Card | [source/memory-card](/../../../../mkgp-dev/memoire) | [memory-card](https://memoire-mkgpdev.netlify.app) | November 30, 2025
-| Shopping Cart | [source/shopping-cart](/../../../../mkgp-dev/shople) | [shople](https://shople.netlify.app) | December 02, 2025
+| Shopping Cart | [source/shopping-cart](/../../../../mkgp-dev/shople) | [shopping-cart](https://shople.netlify.app) | December 02, 2025
 | Basic Informational Site | [source/basic-informational-site](/basic-informational-site) | Unavailable | December 05, 2025
