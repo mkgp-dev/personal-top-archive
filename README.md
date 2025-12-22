@@ -30,3 +30,8 @@ Archives of my journey in [The Odin Project](https://www.theodinproject.com/)
 | Memory Card | [source/memory-card](/../../../../mkgp-dev/memoire) | [memory-card](https://memoire-mkgpdev.netlify.app) | November 30, 2025
 | Shopping Cart | [source/shopping-cart](/../../../../mkgp-dev/shople) | [shopping-cart](https://shople.netlify.app) | December 02, 2025
 | Basic Informational Site | [source/basic-informational-site](/basic-informational-site) | Unavailable | December 05, 2025
+| Mini Message Board | [source/mini-message-board](/../../../../mkgp-dev/message-wall) | [mini-message-board](https://message-wall.up.railway.app) | December 09, 2025
+| Inventory Application | [source/inventory-application](/../../../../mkgp-dev/playtory) | [inventory-application](https://playtory.up.railway.app) | December 12, 2025
+| Members Only | [source/members-only](/../../../../mkgp-dev/message-wall-membership) | [members-only](https://message-wall-membership.up.railway.app) | December 15, 2025
+| File Uploader | [source/file-uploader](/../../../../mkgp-dev/droppy) | [file-uploader](https://droppy.up.railway.app) | December 16, 2025
+| Blog API | [source/blog-api](/../../../../mkgp-dev/blog-cms-api) | [blog-api](https://mkgp.is-a.dev/blog) | December 22, 2025
